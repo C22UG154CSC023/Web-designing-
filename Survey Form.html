@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        fieldset{
+             background-color: white;
+        }
+
+        input{
+            padding: 7px;
+
+        }
+
+        table{
+            word-spacing: 20px;
+        }
+
+        label{
+            margin: 0px;
+        }
+
+        
+
+        
+
+       
+    </style>
+</head>
+<body>
+    <h1><center>Survey Form</center></h1>
+    
+    <fieldset>
+        <center>
+            <p>Let us know how we can improve freeCodeCamp</p>
+        <center>
+
+        <table style="text-align: center;">
+            <tr>
+                <td>
+                    <label>Name :</label>
+                    <input type="text" placeholder="Enter your name">
+                </td>
+            </tr>
+                
+            <tr>
+                <td>
+                    <label>Email :</label>
+                    <input type="email" placeholder="Enter your Email">
+                </td>
+            </tr>
+                    
+            <tr>
+                <td>
+                    <label>Age :</label>
+                    <input type="number" placeholder="Enter your Age"> 
+                </td>
+            </tr>
+        </table><br><br>
+
+      
+        <label>Which option best describes your current role?</label>
+        <select>
+             <option>Student</option>
+             <option>Employee</option>
+             <option>Others</option>
+        </select> <br><br>
+
+        <lebel>How likely is that you would recommend</lebel><br>
+        <label>freeCodeCamp to a friend?</label><br>
+
+            <input type="radio" name="1">Definitely<br>
+            <input type="radio" name="1">Maybe<br>
+            <input type="radio" name="1">Not sure<br><br>
+        
+
+        <label>What do you like most in FCC:</label>
+        <select>
+            <option>Select option</option>
+        </select><br><br>
+
+        <label>Things that should be improved in the future<br>(Check all that apply):</label><br>
+        <input type="checkbox">Front-end Projects<br>
+        <input type="checkbox">Back-end Projects<br>
+        <input type="checkbox">Data Visualization<br>
+
+      
+    </fieldset>
+</body>
+</html>
